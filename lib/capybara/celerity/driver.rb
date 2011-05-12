@@ -1,4 +1,4 @@
-class Capybara::Driver::Celerity < Capybara::Driver::Base
+class Capybara::Celerity::Driver < Capybara::Driver::Base
   class Node < Capybara::Driver::Node
     def text
       native.text

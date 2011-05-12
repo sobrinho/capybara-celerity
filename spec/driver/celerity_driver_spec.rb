@@ -1,9 +1,9 @@
 require 'spec_helper'
 require 'capybara/spec/driver'
 
-describe Capybara::Driver::Celerity do
+describe Capybara::Celerity::Driver do
   before(:all) do
-    @driver = Capybara::Driver::Celerity.new(TestApp)
+    @driver = Capybara::Celerity::Driver.new(TestApp)
   end
 
   it_should_behave_like "driver"
