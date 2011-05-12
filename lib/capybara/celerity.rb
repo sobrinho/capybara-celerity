@@ -1,5 +1,6 @@
 require 'capybara'
 require 'capybara/celerity/driver'
+require 'capybara/celerity/node'
 require 'capybara/celerity/version'
 
 Capybara.register_driver :celerity do |app|
