@@ -131,7 +131,9 @@ class Capybara::Celerity::Driver < Capybara::Driver::Base
     browser.elements_by_xpath(selector).map { |node| Node.new(self, node) }
   end
 
-  def wait?; true; end
+  def wait?
+    true
+  end
 
   def execute_script(script)
     browser.execute_script script
