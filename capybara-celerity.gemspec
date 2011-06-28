@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "capybara", ">= 1.0.0.beta1"
   s.add_dependency "celerity", ">= 0.7.9"
 
+  s.add_development_dependency "rake", ">= 0.8.7"
   s.add_development_dependency "rspec", "~> 2.5"
   s.add_development_dependency "sinatra", "~> 1.0"
 end
