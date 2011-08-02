@@ -1,6 +1,6 @@
 module Capybara
   module Driver
-    class Celerity
+    module CelerityVersion
       VERSION = "0.0.1"
     end
   end
