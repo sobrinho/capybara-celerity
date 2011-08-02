@@ -39,7 +39,7 @@ class Capybara::Driver::Celerity < Capybara::Driver::Base
   end
 
   def find(selector)
-    browser.elements_by_xpath(selector).map { |node| ::Capybara::Celerity::Node.new(self, node) }
+    browser.elements_by_xpath(selector).map { |node| ::Capybara::Driver::Celerity::Node.new(self, node) }
   end
 
   def wait?
