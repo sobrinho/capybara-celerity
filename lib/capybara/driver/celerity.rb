@@ -1,4 +1,10 @@
-class Capybara::Celerity::Driver < Capybara::Driver::Base
+
+class Capybara::Driver::Celerity < Capybara::Driver::Base
+  require "capybara/driver/celerity_version"
+  
+  require "capybara/driver/celerity/node"
+  
+  
   attr_reader :app, :rack_server, :options
 
   def initialize(app, options={})
@@ -33,7 +39,7 @@ class Capybara::Celerity::Driver < Capybara::Driver::Base
   end
 
   def find(selector)
-    browser.elements_by_xpath(selector).map { |node| ::Capybara::Celerity::Node.new(self, node) }
+    browser.elements_by_xpath(selector).map { |node| ::Capybara::Driver::Celerity::Node.new(self, node) }
   end
 
   def wait?

@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "capybara/celerity/version"
+require "capybara/driver/celerity_version"
 
 Gem::Specification.new do |s|
   s.name        = "capybara-celerity"
-  s.version     = Capybara::Celerity::VERSION
+  s.version     = Capybara::Driver::CelerityVersion::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Gabriel Sobrinho"]
   s.email       = ["gabriel.sobrinho@gmail.com"]
