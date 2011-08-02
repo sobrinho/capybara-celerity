@@ -1,14 +1,14 @@
 require 'spec_helper'
 require 'capybara/spec/session'
 
-describe Capybara::Celerity::Driver do
+describe Capybara::Driver::Celerity do
   before(:all) do
     @session = Capybara::Session.new(:celerity, TestApp)
   end
 
   describe '#driver' do
     it "should be a celerity driver" do
-      @session.driver.should be_an_instance_of(Capybara::Celerity::Driver)
+      @session.driver.should be_an_instance_of(Capybara::Driver::Celerity)
     end
   end
 
