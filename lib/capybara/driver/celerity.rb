@@ -1,8 +1,6 @@
-
 class Capybara::Driver::Celerity < Capybara::Driver::Base
   require "capybara/driver/celerity/node"
-  
-  
+
   attr_reader :app, :rack_server, :options
 
   def initialize(app, options={})
