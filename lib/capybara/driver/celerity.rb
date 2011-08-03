@@ -1,7 +1,5 @@
 
 class Capybara::Driver::Celerity < Capybara::Driver::Base
-  require "capybara/driver/celerity_version"
-  
   require "capybara/driver/celerity/node"
   
   
