@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("spec/*")
   s.require_paths = ["lib"]
   
-  s.add_dependency "capybara", ">= 1.0.0"
-  s.add_dependency "celerity", ">= 0.7.9"
+  s.add_dependency "capybara", "~> 1.1.0"
+  s.add_dependency "celerity", "~> 0.8.9"
 
   s.add_development_dependency "rake", ">= 0.8.7"
   s.add_development_dependency "rspec", "~> 2.5"
