@@ -22,3 +22,7 @@ Set the driver in Your `spec_helper.rb`/`test_helper.rb`:
 or even better set the driver only for JRuby :
 
     Capybara.javascript_driver = :celerity if defined?(JRUBY_VERSION)
+
+## License
+
+Copyright (c) 2011 Gabriel Sobrinho, released under the MIT license.
