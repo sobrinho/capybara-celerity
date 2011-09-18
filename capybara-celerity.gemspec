@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.add_dependency "celerity", "~> 0.8.9"
 
   s.add_development_dependency "rake", ">= 0.8.7"
-  s.add_development_dependency "rspec", "~> 2.5"
-  s.add_development_dependency "sinatra", "~> 1.0"
+  s.add_development_dependency "rspec", ">= 2.5.0"
+  s.add_development_dependency "sinatra", ">= 1.0.0"
   
   s.has_rdoc = false
 end
