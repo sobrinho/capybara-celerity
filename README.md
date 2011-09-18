@@ -1,17 +1,15 @@
-## Capybara Celerity Driver
+# Capybara Celerity Driver
 
 A driver for Capybara using [Celerity](http://celerity.rubyforge.org).
 It uses [HtmlUnit](http://htmlunit.sourceforge.net) a browser for Java programs.
 
 **NOTE** that Celerity only works on JRuby, thus applies to this driver as well.
 
-
-### Install
+## Install
 
     jruby -S gem install capybara-celerity
 
-
-### Setup
+## Setup
 
 Setup the gem in Your `Gemfile`:
 
