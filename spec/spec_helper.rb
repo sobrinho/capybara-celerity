@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'capybara-celerity'
+require 'capybara/celerity'
 
 alias :running :lambda
 
